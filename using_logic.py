@@ -22,7 +22,7 @@ else:
 # 'while' will keep going until a value is met
 # here we make sure the user enters a city
 city = '' # here we have an empty string
-while city !='': # != means not equal
+while city =='': # == means is equal
     city = input('Please enter a city name: ')
 
 print(f'You entered {city}')
