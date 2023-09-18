@@ -19,6 +19,13 @@ def isFloat(f):
     else:
         return False
 
+def checkInputIsInt(u):
+    '''Every input is a string, so cast to an integer like this'''
+    if type(  int(float(u)) ) == int:
+        return True
+    else:
+        return False
+
 if __name__ == '__main__':
     # here is an int, a float and a str
     my_values = (3, 7.2, 'hello')
@@ -28,3 +35,5 @@ if __name__ == '__main__':
         true_i = isInt(item)
         true_f = isFloat(item)
         print( f'{item} string:{true_s} int:{true_i} float:{true_f}' )
+    q = input('Please enter an integer: ')
+    print( checkInputIsInt(q) )
