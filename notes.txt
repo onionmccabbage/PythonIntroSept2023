@@ -99,6 +99,8 @@ https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Programming_in_Pytho
 recordings: username is neueda pwd is c0nygre
 
 Links
+- learn Python https://www.learnpython.org/
+- Python exercises https://pynative.com/python-exercises-with-solutions/
 - Python official site https://python.org
 - PEP8 style guide https://www.python.org/dev/peps/pep-0008/
 - online Python interpreter https://repl.it/languages/Python3
