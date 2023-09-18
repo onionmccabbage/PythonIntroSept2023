@@ -38,6 +38,7 @@ Monday
 > validate input before casting it
 - string manipulation
 > Lists, Tuples and nested collections
+- the random library
 - after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
 - import, pip, libraries and modules
