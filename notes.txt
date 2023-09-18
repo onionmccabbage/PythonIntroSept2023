@@ -9,7 +9,6 @@ Toby Dussek
 3:00  tea until 3:15
 4:30  end
 
-recordings: username is neueda pwd is c0nygre
 Code Repo
 https://github.com/onionmccabbage/PythonIntroSept2023
  
@@ -19,8 +18,8 @@ Monday
   Pycharm or VSCode or ...
 - overview of Python 3 (and Python 2)
   python 2 print does not need brackets
-  python 2 division is type-dependant, so int division ALWAYS gives an int. 2/5 is 2
-  both 2 and 3 support multi-threading and multi-processing
+  python 2 division is type-dependant, so int division ALWAYS gives an int. 5/2 is 2
+  both Python 2 and 3 support multi-threading and multi-processing
 - architecture, structure, and professional code best practice
 - print() and input()
 - maths operators and data types
@@ -93,6 +92,8 @@ Wednesday
 - end of course feedback
   https://easyretro.io/publicboard/NTDqkkm6utgJFD9cdBrdb4sI6n72/957cd210-8c0e-4fc5-baec-bce3c55c86fb
 
+https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Programming_in_Python/site/index.html
+recordings: username is neueda pwd is c0nygre
 
 Links
 - Python official site https://python.org
