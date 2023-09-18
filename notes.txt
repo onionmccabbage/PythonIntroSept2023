@@ -31,13 +31,15 @@ Monday
 - square bracket notation for iterable collections
 - memory efficiency
 - identifiers
-- boolean True and False
+  user letters, numbers and underscore
+  dont start with a digit
+> boolean True and False
 - type and type conversion
 - validate input before casting it
 - string manipulation
-- Lists, Tuples and nested collections
+> Lists, Tuples and nested collections
 - after lunch review exercise
-- dictionaries (non-numeric indexed iterable collections)
+> dictionaries (non-numeric indexed iterable collections)
 - import, pip, libraries and modules
 - very big numeric values
 - += etc.
