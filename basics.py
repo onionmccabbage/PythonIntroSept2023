@@ -67,5 +67,7 @@ print(my_set)
 # We also have 'boolean' type
 # Careful - True evaluates to the same thing as 1 (and a set can only contain unique values)
 my_set.add(True) # boolean True (or False)
-for i in my_set:
+for i in my_set: # the colon indicates the start iof a block of code
     print(i, type(i))
+# when we no longer indent, that is the end of the code block
+# NB Python uses 'indentation' for blocks of code
