@@ -12,6 +12,6 @@ def getPhotos(): # API means Application Programming Interface (get data from an
     return response_list
 
 # we can call our function
-photos = getPhotos()
+photos = getPhotos() # photos is a list of dictionaries
 # we can take a look at just the zero-th member of the data
-print( photos[0] )
+print( photos[0], type(photos[0]) )
