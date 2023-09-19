@@ -65,9 +65,9 @@ Tuesday
 > requests
 > strings with triple quotes
 > exception handling (try-except etc.)
-- review exercise
+> review exercise
 - import path
-- File input and output
+> File input and output
 
 Wednesday
 - brief review so far
