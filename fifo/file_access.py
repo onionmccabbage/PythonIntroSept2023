@@ -15,6 +15,7 @@ def readFromFile():
     fin = open('data.txt', 'rt') # 'r' means read 't' means text
     r = fin.readlines() # this will return a list containing each line
     print(r)
+    fin.close() # always a godo idea to close when done
 
 if __name__ == '__main__':
     # ask the user to enter a name
