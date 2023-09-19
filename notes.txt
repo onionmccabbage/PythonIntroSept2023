@@ -64,7 +64,7 @@ Tuesday
   - python –m pip install requests (or any other library you need)
 > requests
 > strings with triple quotes
-- exception handling (try-except etc.)
+> exception handling (try-except etc.)
 - review exercise
 - import path
 - File input and output
