@@ -12,7 +12,7 @@ def getAge():
         try:
             a_str = input('Please enter your age: ')
             a = int(float(a_str))
-        except Exception as e:
+        except ValueError as e:
             pass
     return a
 
