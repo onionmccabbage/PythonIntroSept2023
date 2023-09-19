@@ -13,7 +13,7 @@ def writeToFile(data):
 def readFromFile():
     '''use a file access object to open and red a text file'''
     fin = open('data.txt', 'rt') # 'r' means read 't' means text
-    r = fin.readlines()
+    r = fin.readlines() # this will return a list containing each line
     print(r)
 
 if __name__ == '__main__':
@@ -21,4 +21,4 @@ if __name__ == '__main__':
     n = input('Please enter a name: ')
     # store that name in a text file
     writeToFile(n)
-    readFromFile()
+    readFromFile() # NB '\n' means a new-line character
