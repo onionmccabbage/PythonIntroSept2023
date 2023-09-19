@@ -1,0 +1,36 @@
+Review Exercise 2
+=================
+In this exercise yu will get sme data from the user, store it in a structure
+then write the data to a text file. 
+Optionally you will read it back and display the data.
+
+Ask the user for a name, age and language (use three separate 'input's)
+Make sure they enter a non-empty string for 'name'
+Validate that the 'age' is a positive integer
+The 'language' can be anything
+When you have all three values, store them in a data structure.
+You can decide if a list, tuple, set or dictionary would work best
+
+Next, build a formatted string containing 'name', 'age' and 'language'
+Append this string to a text file
+
+Finally, read everything in from your text file and print it all out
+
+Optional
+--------
+If you have time, try the following:
+- Make sure you have try-except blocks around any file access
+- When the file reaches five lines long, overwrite it with new data
+  (so every five entries the file begins afresh)
+- import datetime then use it to add a date stamp every time you output to the file
+- When you read the data back in, just write the name from each entry
+  (or just the age or language)
+
+Further Optional
+----------------
+If you like, try these ideas:
+- make sure your file only contains unique names (maybe via a set)
+- every file entries, start a new file (maybe file_1, file_2 etc...)
+- provide a way for the user to choose which line should be read back from the file
+  (e.g. they want only line 3, or lines 2-4 etc)
+

@@ -24,7 +24,14 @@ def writeChunks(t):
         print(e)
 
 def readChunks():
-    pass
+    '''open a file and then read the content'''
+    try:
+        with open('my_words.txt', 'rt') as fin:
+            r = fin.readlines() #all the content as a list of lines
+            return r
+    except Exception as e:
+        print(e)
+ 
 
 if __name__ == '__main__':
     words = 'here is a long sentence containing a lot of text which we might need to store in a text file to persist while we wait'
