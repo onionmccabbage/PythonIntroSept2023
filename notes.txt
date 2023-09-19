@@ -24,7 +24,7 @@ Monday
 > print() and input()
 > maths operators and data types
 > the if statement for conditional logic
-- while loop, break and pass
+> while loop, break and pass
 > indentation
 > immutable strings
 > print formatting
@@ -42,14 +42,17 @@ Monday
 > after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
 - import, pip, libraries and modules
-- very big numeric values
-- += etc.
+> very big numeric values
+. += etc.
 > looping with 'for'
 - if __name__ ...
 
 Tuesday
+q Any difference between single quote and double quote for delimiting a string ?
 - quick review of where we got to
-- the recordings... (usr neueda pwd c0nygre)
+  differences between List, Set, Tuple, Dict ... 
+  pop, append etc.
+> the recordings... (usr neueda pwd c0nygre)
 - range, generators
 - set comprehension, list compresension, dictionary comprehension
 - by-reference or by-value
@@ -89,12 +92,11 @@ Wednesday
 - review exercise
 - how to format with certain dp
 - debug tools
-- where to go from here:
-  https://pynative.com/python-exercises-with-solutions/
-  the next courses: advanced python then further advanced python
+- the next courses: advanced python then further advanced python
 - end of course feedback
   https://easyretro.io/publicboard/NTDqkkm6utgJFD9cdBrdb4sI6n72/957cd210-8c0e-4fc5-baec-bce3c55c86fb
 
+Course Website
 https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Programming_in_Python/site/index.html
 recordings: username is neueda pwd is c0nygre
 
