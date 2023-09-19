@@ -1,4 +1,4 @@
-Review Exercise 2
+Review Exercise 2 (until 2:50)
 =================
 In this exercise yu will get some data from the user, store it in a structure
 then write the data to a text file. 
