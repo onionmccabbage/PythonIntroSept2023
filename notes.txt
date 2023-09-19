@@ -48,8 +48,8 @@ Monday
 - if __name__ ...
 
 Tuesday
-q Any difference between single quote and double quote for delimiting a string ?
-- quick review of where we got to
+> Any difference between single quote and double quote for delimiting a string ?
+> quick review of where we got to
   differences between List, Set, Tuple, Dict ... 
   pop, append etc.
 > the recordings... (usr neueda pwd c0nygre)
