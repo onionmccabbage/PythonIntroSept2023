@@ -74,7 +74,6 @@ Wednesday
 - functions live in classes, which live in modules which live in packages
 - architecture: modules __init__.py and __name__ == '__main__'
 - PEP8 style guide
-- custom generator and yield
 - global and local scope 
 - data modelling structures: 
     use built in structures until they do not suit the purpose (then use classes)
@@ -87,14 +86,17 @@ Wednesday
 - intrinsic attributes: __doc__ etc.
 - documentation strings (docstring) for classes
 - special operators and overriding
-- inheritance
-- composition, static and class methods
+- inheritance and composition
 - review exercise
-- how to format with certain dp
 - debug tools
 - the next courses: advanced python then further advanced python
+
+
 - end of course feedback
   https://easyretro.io/publicboard/NTDqkkm6utgJFD9cdBrdb4sI6n72/957cd210-8c0e-4fc5-baec-bce3c55c86fb
+
+  https://apps.powerapps.com/play/17579985-153c-4727-b1f4-8b53e48b5e72?tenantId=92e84ceb-fbfd-47ab-be52-080c6b87953f&Type=ILT&ID=LD_ADHOC_MELA_1588&OID=509378&Title=Programming%20in%20Python&Owner=Sachin%20Srivastava%20B
+
 
 Course Website
 https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Programming_in_Python/site/index.html
