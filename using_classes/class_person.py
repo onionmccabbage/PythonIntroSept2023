@@ -15,25 +15,27 @@ class Person:
         return self.__n
     def setName(self, new_name):
         if len(new_name)>0 and type(new_name)==str:
-            self.__n = new_name
+            self.__n = new_name # using __n is 'name mangling'
         else:
             self.__n = 'default'
     def getAge(self):
-        return self.a
+        return self.__a
     def setAge(self, newAge):
         if type(newAge)==int:
-            self.a = newAge
+            self.__a = newAge
         else:
             pass # do nothing if the age is invalid
     def getLang(self):
-        return self.l
+        return self.__l
     def setLang(self, new_lang):
         if type(new_lang)==str and len(new_lang)>0:
-            self.l = new_lang
+            self.__l = new_lang
         else:
             pass
             # raise TypeError('Language must be a non emtpy string')
-    n = property(getName, setName)
+    n = property(getName, setName) # these are called getter and setter methods
+    a = property(getAge, setAge)   # also known as accessor and mutator methods
+    l = property(getLang, setLang)
 
 if __name__ == '__main__':
     # we can create instances of our class
