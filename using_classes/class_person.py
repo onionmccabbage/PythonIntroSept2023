@@ -16,6 +16,14 @@ class Person:
             self.n = new_name
         else:
             self.n = 'default'
+    def setAge(self, newAge):
+        if type(newAge)==int:
+            self.a = newAge
+        else:
+            pass # do nothing if the age is invalid
+    def setLang(self, new_lang):
+        if type(new_lang)==str and len(new_lang)>0:
+            self.l = new_lang
 
 if __name__ == '__main__':
     # we can create instances of our class
