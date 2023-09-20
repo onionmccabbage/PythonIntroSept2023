@@ -11,28 +11,36 @@ class Person:
         self.n = n
         self.a = a
         self.l = l
+    def getName(self):
+        return self.__n
     def setName(self, new_name):
         if len(new_name)>0 and type(new_name)==str:
-            self.n = new_name
+            self.__n = new_name
         else:
-            self.n = 'default'
+            self.__n = 'default'
+    def getAge(self):
+        return self.a
     def setAge(self, newAge):
         if type(newAge)==int:
             self.a = newAge
         else:
             pass # do nothing if the age is invalid
+    def getLang(self):
+        return self.l
     def setLang(self, new_lang):
         if type(new_lang)==str and len(new_lang)>0:
             self.l = new_lang
         else:
-            raise TypeError('Language must be a non emtpy string')
+            pass
+            # raise TypeError('Language must be a non emtpy string')
+    n = property(getName, setName)
 
 if __name__ == '__main__':
     # we can create instances of our class
-    Arianne = Person('Arianne', 42, 'Python') # every time we make an instance it will run __init__
+    Arianne = Person('', 42, 'Python') # every time we make an instance it will run __init__
     Betty   = Person('Betty', 35, 'Java')
     Con     = Person('Con', 23, 'Python')
-    Arianne.setName('')
+    # Arianne.setName('')
     Betty.setAge('old')
     Con.setLang(32)
         
