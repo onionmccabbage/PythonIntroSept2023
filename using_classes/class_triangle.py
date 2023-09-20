@@ -32,6 +32,12 @@ class Triangle(Shape):
     def hypot(self): # this is now a read-only property
         h = (self.x**2 + self.y**2)**0.5
         return h
+    # there is always a built-in __str__ method. we can choose to overide it with our own method
+    # every time we call 'print' (on this class) it will use our __str__ method
+    def __str__(self):
+        return f'''This triangle has {self.num_sides} sides.
+It measures {self.x} by {self.y}.
+The Hypotenuse is {self.hypot}'''
 
 if __name__ == '__main__':
     t1 = Triangle(3, 4, 5)
@@ -44,3 +50,4 @@ if __name__ == '__main__':
     # we can choose to access the 'count' from any instance of the Triangle class
     t4 = Triangle(3, 435743, 53673463)
     print(f'we have {t4.count} triangles')
+    print(t1)
