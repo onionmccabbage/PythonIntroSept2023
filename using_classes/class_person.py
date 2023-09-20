@@ -7,7 +7,7 @@ class Person:
     '''This class enclapsulates a person
     we store name, age and language'''
     def __init__(self, n, a, l): # every function in a class MUST take 'self' as an argument
-        print('a Person instance is being created')
+        # print('a Person instance is being created')
         self.n = n
         self.a = a
         self.l = l
