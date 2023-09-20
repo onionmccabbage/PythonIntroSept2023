@@ -37,7 +37,10 @@ class Triangle(Shape):
     def __str__(self):
         return f'''This triangle has {self.num_sides} sides.
 It measures {self.x} by {self.y}.
-The Hypotenuse is {self.hypot}'''
+The Hypotenuse is {self.hypot:0.2f}'''
+
+# by the way, whenever you find something in Python that has __...__
+# that is a built-in part of Python
 
 if __name__ == '__main__':
     t1 = Triangle(3, 4, 5)
@@ -50,4 +53,4 @@ if __name__ == '__main__':
     # we can choose to access the 'count' from any instance of the Triangle class
     t4 = Triangle(3, 435743, 53673463)
     print(f'we have {t4.count} triangles')
-    print(t1)
+    print(t4)
