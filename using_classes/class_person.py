@@ -24,6 +24,8 @@ class Person:
     def setLang(self, new_lang):
         if type(new_lang)==str and len(new_lang)>0:
             self.l = new_lang
+        else:
+            raise TypeError('Language must be a non emtpy string')
 
 if __name__ == '__main__':
     # we can create instances of our class
@@ -31,9 +33,11 @@ if __name__ == '__main__':
     Betty   = Person('Betty', 35, 'Java')
     Con     = Person('Con', 23, 'Python')
     Arianne.setName('')
+    Betty.setAge('old')
+    Con.setLang(32)
         
     # we can access any properties like this (called 'dot notation')
-    print( Arianne.n, Arianne.a, Arianne.l )
+    print( Arianne.n, Betty.a, Con.l )
 
 
    
