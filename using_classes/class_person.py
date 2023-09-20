@@ -3,7 +3,8 @@
 # 'age' (an integer)
 # 'language' (a non-empty string)
 
-class Person:
+# every class inherits from 'object'
+class Person: # same as class Person(): or class Person(object)
     '''This class enclapsulates a person
     we store name, age and language'''
     def __init__(self, n, a, l): # every function in a class MUST take 'self' as an argument
