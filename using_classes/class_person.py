@@ -46,6 +46,7 @@ if __name__ == '__main__':
     # Arianne.setName('')
     Betty.setAge('old')
     Con.setLang(32)
+    Con.l = 'Python' # here Python calls the function but it looks like a property
         
     # we can access any properties like this (called 'dot notation')
     print( Arianne.n, Betty.a, Con.l )
