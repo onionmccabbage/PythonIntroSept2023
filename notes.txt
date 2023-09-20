@@ -70,9 +70,9 @@ Tuesday
 > File input and output
 
 Wednesday
-- brief review so far
+> brief review so far
 - functions live in classes, which live in modules which live in packages
-- architecture: modules __init__.py and __name__ == '__main__'
+> architecture: modules __init__.py and __name__ == '__main__'
 - PEP8 style guide
 - global and local scope 
 - data modelling structures: 

@@ -1,0 +1,9 @@
+The weather in Athlone is clear sky at 13.55C
+The weather in hull is moderate rain at 16.74C
+The weather in canberra is broken clouds at 13.72C
+The weather in lagos is light rain at 29.6C
+The weather in kluang is overcast clouds at 23.76C
+The weather in madrid is few clouds at 23.43C
+The weather in galway is broken clouds at 13.64C
+The weather in Narnia is overcast clouds at 26.93C
+The weather in Gotham is broken clouds at 15.42C
