@@ -1,10 +1,14 @@
 from class_shapes import Shape
 
 class Triangle(Shape):
+    # we can declare propertties that belong to the class itself
+    count = 0 # this is like a 'static' property of the class
     def __init__(self, num_sides, x, y):
         super().__init__(num_sides) # this calls the __init__ of the parent class
         self.x = x
         self.y = y
+        # increment the 'count'
+        Triangle.count += 1
     @property
     def x(self): # this is the getter method
         return self.__x
@@ -31,6 +35,12 @@ class Triangle(Shape):
 
 if __name__ == '__main__':
     t1 = Triangle(3, 4, 5)
+    t2 = Triangle(3, -4,-5)
+    t3 = Triangle(3, 7, 2)
+    print(f'There are {Triangle.count} triangles')
     t1.x = 'oh dear' # here we try to directly access the x property of the Triange instace
     t1.y = 4 # this uses the y setter method to set __y
     print(f'{t1.num_sides} sides {t1.x} by {t1.y} has h={t1.hypot}')
+    # we can choose to access the 'count' from any instance of the Triangle class
+    t4 = Triangle(3, 435743, 53673463)
+    print(f'we have {t4.count} triangles')
