@@ -14,7 +14,15 @@ class Triangle(Shape):
             self.__x = new_x
         else:
             self.__x = 3 # set x to a safe default value
-    
+    @property
+    def y(self): # this is the getter method
+        return self.__y
+    @y.setter
+    def y(self, new_y):
+        if type(new_y)==float or type(new_y)==int:
+            self.__y = new_y
+        else:
+            self.__y = 4 # set x to a safe default value    
 
 if __name__ == '__main__':
     t1 = Triangle(3, 4, 5)
