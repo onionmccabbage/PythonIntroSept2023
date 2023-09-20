@@ -1,0 +1,40 @@
+Python Review 3 up to 1hr 15mins
+===============
+- Alter these instructions to suit your thinking
+- Aim for good architecture (maybe use separate modules, remember 'if __name__...')
+- Look online, talk to each other, ask me etc.
+- There will be an opportunity to share your code
+
+Write a 'Weather' class with get/set methods for 'city', 'description' and 'temperature'
+(you can choose to use @property or city=property(...))
+Ask the user to enter a 'city' and a 'description'
+Generate a random 'temperature' (import random)
+
+Use these values to populate an instance of your Weather class
+
+In your Weather class, override __str__ so the class prints nicely, something like
+  'The weather in Athlone is cloudy at 13.07C'
+
+Your class should validate:
+  - the value for 'city' is a non-empty string of three or more characters
+  - if city is missing or unacceptable, you should provide a sensible default (e.g. 'Athlone')
+  - the value for 'description' is a non-empty string (choose a default)
+  - the 'temperature' must be an int or a float
+
+Optional
+--------
+Also include a validated property for 'wind_speed'
+Every time a new Weather instance is created, print the values to a text file
+Provide a way to read back all the reports from this text file
+(you could also add a date-time stamp)
+
+If time
+-------
+Use the 'requests' library to pass in the 'city' value as a parameter for this API URL
+  f'https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1'
+For the returned JSON data, the description will be
+  response_dict['weather'][0]['description']
+The temperature will be
+  response_dict['main']['temp']
+Use the returned data to populate an instance of your 'weather' class
+Print the results
